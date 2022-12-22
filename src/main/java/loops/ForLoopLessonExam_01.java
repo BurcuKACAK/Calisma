@@ -43,7 +43,7 @@ public class ForLoopLessonExam_01 {
 
         String str = "Seni Sevmek Suc mu Ey Java ";
 
-        for (int i =str.length()-1 ; i>0 ; i--) {
+        for (int i =str.length()-1 ; i>=0 ; i--) {
 
             char ch = str.charAt(i);
             if (ch =='m'){
@@ -52,6 +52,7 @@ public class ForLoopLessonExam_01 {
             System.out.print(str.charAt(i));
 
         }
+
         System.out.println("\n/////////////////////////////////////////");
 
 
@@ -62,6 +63,22 @@ public class ForLoopLessonExam_01 {
             }
         }
         System.out.println(s1);
+
+        System.out.println("\n/////////////////////////////////////////");
+
+
+        String m = "I love you";
+        StringBuffer mTers = new StringBuffer(m);
+        System.out.println(mTers.reverse());
+
+        System.out.println("\n/////////////////////////////////////////");
+
+        String f = "Gulrengi";
+        String fTersi = "";
+
+        for (int i = f.length()-1 ; i>=0 ; i--){
+            fTersi = fTersi + f.charAt(i);
+        }System.out.println(fTersi);
 
     }
 

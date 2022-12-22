@@ -1,5 +1,7 @@
 package loops;
 
+import java.util.Scanner;
+
 public class ForLoopLessonExam_02 {
     public static void main(String[] args) {
 
@@ -38,11 +40,53 @@ public class ForLoopLessonExam_02 {
         String stTers="";
 
         for (int i = st.length()-1; i>=0 ; i--){
-            System.out.print(st.charAt(i));
+            System.out.print(st.charAt(i));}
+
+            System.out.println("\n/////////////////////////////////////////");
+
+            String f = "AyseATALAY";
+            String fTers = "";
+
+            for (int k =f.length()-1 ; k>=0 ; k--){
+                fTers = fTers +  f.charAt(k);
+                System.out.println(fTers);
+            }
+        System.out.println("\n/////////////////////////////////////////");
+
+            String s = "I LOVE YOU";
+            String sTers = "";
+             for (int a =s.length()-1 ; a>=0 ; a--){
+                  sTers += s.charAt(a);
+                 System.out.println(sTers);
+             }
+
+        System.out.println("\n/////////////////////////////////////////");
+
+             String u = "I LOVE YOU";
+             String uTotal = "" ;
+        for (int i = 0; i <u.length(); i++) {
+            uTotal += u.charAt(i);
+            System.out.println(uTotal);
+            System.out.println("\n/////////////////////////////////////////");
+
+            /*Verilen bir cumleyi * ile gizleyin, 10. karakterden sonrasini yazdiriniz
+
+            Scanner input = new Scanner(System.in);
+            System.out.println("Lutfen Bir Cumle Giriniz");
+            String verilenCumle = input.nextLine();
+            String bos = "";
+            for (int j = 0; j <verilenCumle.length() ; j++) {
+            devamini yapacagim
+             */
+
+
+            }
+
+
+
 
         }
 
 
+            }
 
-    }
-}
