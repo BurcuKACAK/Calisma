@@ -50,6 +50,47 @@ public class ForLoopLessonExam_03 {
 
 
 
+        String m = "emnne";
+        String bos = "";
+
+        for(int l =m.length()-1; l>=0; l--){
+            bos+=m.charAt(i);}
+        if (m.equalsIgnoreCase(bos)){
+            System.out.println("Palindrom");
+        }else {
+            System.out.println("Palindrome Degil");
+
+        }
+
+
+
+
+        String k = "baba";
+        String bos1 = "";
+
+        for (int j = k.length()-1 ; j >=0 ; j--) {
+            bos1 = bos1+k;}
+        if (k.equalsIgnoreCase(bos1)){
+            System.out.println(k+" = Palindrome");
+        }else {
+            System.out.println(k+" = Palindrome Degil");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
     }

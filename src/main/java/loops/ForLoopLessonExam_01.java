@@ -21,14 +21,17 @@ public class ForLoopLessonExam_01 {
             String ch = a.substring(i  , i+1);
 
             if (i%2==0){
-                System.out.println(ch.toUpperCase());
-        }
+                System.out.print(ch.toUpperCase());
+        }else {
+                System.out.print(ch.toLowerCase());
+            }
         }
         System.out.println("\n/////////////////////////////////////////");
 
         // Size verilen bir Stringde a harfine kadar olan kismi yazdiriniz
 
             String s = "Ey Edip Uyan";
+
 
             for (int i = 0 ; i<s.length() ; i++){
                 char ch = s.charAt(i);
@@ -79,6 +82,28 @@ public class ForLoopLessonExam_01 {
         for (int i = f.length()-1 ; i>=0 ; i--){
             fTersi = fTersi + f.charAt(i);
         }System.out.println(fTersi);
+
+        System.out.println("\n/////////////////////////////////////////");
+
+        String s3 = "Tramvay";
+
+        for (int i = 0; i <s3.length() ; i++) {
+            char ch =s3.charAt(i);
+            if (ch=='y'){
+                break;
+            }
+            System.out.print(ch);
+        }
+        System.out.println("\n/////////////////////////////////////////");
+
+
+        String m1= "Cekoslavakya";
+
+        for (int i = m1.length()-1; i>=0   ; i--) {
+            char ch1 = m1.charAt(i);
+            System.out.print(ch1);
+
+        }
 
     }
 
